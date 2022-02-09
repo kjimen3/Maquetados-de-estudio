@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+}
+.contenedor_paises {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    color: white;
+    font-size: 23px;
+}
+
+.lista_paises {
+    display: flex;
+    list-style: none;
+}
+
+.lista_paises li {
+    padding-right: 15px;
+}
+.contenedor_logo_y_nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0A83E;
+    padding: 10px;
+    color: white;
+}
+
+#logo {
+    padding: 15px;
+    width: 300px;
+}
+
+.lista_nav {
+    display: flex;
+    list-style: none;
+    margin: 2%;
+    font-size: 30px;
+}
+
+.lista_nav li  {
+    padding-right: 35px;
+}
+
+#imagen_primera_seccion {
+    width: 100vw;
+}
+
+.frases_primera_seccion {
+    position: absolute;
+    top: 400px;
+    right: 500px;
+}
+
+.frases_primera_seccion p {
+    padding: 40px;
+}
+
+.parrafo_uno_primera_seccion {
+    background-color: white;
+    color: black;
+    font-size: 70px;
+    border-radius: 20px;
+}
+
+.parrafo_dos_primera_seccion {
+    text-align: center;
+    font-size: 50px;
+}
+
+.parrafo_tres_primera_seccion {
+    width: 300px;
+    text-align: center;
+    background-color: #F0A83E;
+    color: white;
+    margin-left: 246px;
+    font-size: 35px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+#huella {
+    width: 150px;
+    margin-bottom:5px;
+}
+
+.contenedor_huella_y_titulo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 15px;
+}
+
+.contenedor_huella_y_titulo ul {
+    display: flex;
+    font-size: 30px;
+}
+
+.contenedor_huella_y_titulo li {
+    padding: 60px;
+    list-style: none;
+}
+
+.contenedor_productos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;   
+}
+
+.contenedor_productos div {
+    padding: 60px;
+    text-align: center;
+    width: 600px;
+    height: 670px;   
+}
+
+.contenedor_productos div img {
+    width: 500px;
+}
+
+.contenedor_productos div p {
+    background-color: #FBFAF6;
+    width: 504px;
+}
+
+.datos_de_contacto {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+}
+
+.botones_contacto {
+    background-color: #3c2313;
+    color: #ffffff;
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    width: 190%;
+    border-radius: 15px;
+    font-size: 20px;  
+}
+
+form {
+    position: relative;
+    right: 137px;
+    top: 27px; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224%;
+}
+
+.boton button {
+    padding: 18px;
+    margin: 15px;
+    border-radius: 60px;
+    width: 28%;
+    font-size: 26px;
+    position: relative;
+    top: 20px;
+    right: 31px;
+}
+
+.boton_reset {
+    background-color: #8a8787;
+    color: white;
+    border-style: none;
+}
+
+.boton_submit {
+    background-color: #F0A83E;
+    color: white;
+    border-style: none;
+}
+
+.seccion_suscripcion {
+    display: flex;
+    position: relative;
+    top: 160px;
+    height: 110px;
+    background-color: #F0A83E;
+}
+
+.texto_suscripcion {
+    margin-top: 34px;
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+}
+
+.img_suscripcion {
+    width: 55px;
+    margin-left: 300px;
+}
+
+.formulario_suscripcion {
+    position: relative;
+    left: 500px;
+    display: flex;
+}
+
+.ingreso_correo {
+    background-color: white;
+    border-style: none;
+    padding: 18px;
+    width: 150%;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.boton_suscribirse {
+    background-color: #3c2313;
+    color: white;
+    margin-left: 160px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 149px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #3c2313;
+    margin-top: 160px;
+    display: flex;
+    height: 500px;
+}
+
+.iconos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    margin-top: 36px;
+    margin-left: 288px;
+}
+
+.iconos_footer img {
+    padding: 16px;
+}
+
+.parrafos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    margin-top: 36px;
+}
+
+.parrafos_footer div {
+    padding: 35px;
+    width: 326px;
+    color: white;
+}
+
+.datos_principales {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo_footer {
+    margin-top: 135%;
+    margin-left: 500%;
+    width: 179%;
+}
+
+.derechos_reservados {
+background-color: black;
+color: white;
+text-align: center;
+font-size: 17px;
+}
+
+@media screen and (max-width:1000px) {
+    
+    body {
+        background-color: red;
+    }
+}

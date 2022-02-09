@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_paises">
+            <p>Grandes ofertas en comederos</p>
+            <ul class="lista_paises">
+                <li>Español</li>
+                <li>ARG$</li>
+            </ul>
+        </div>
+        <div class="contenedor_logo_y_nav">
+            <div>
+                <img id="logo" src="img/Logo_header.png" alt="logo pet shop">
+            </div>
+            <div>
+                <ul class="lista_nav">
+                    <li>Categorías</li>
+                    <li>Pets</li>
+                    <li>Nosotros</li>
+                    <li>Contactanos</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="primera_seccion">
+        <div class="pet">
+            <img id="imagen_primera_seccion" src="img/img_fondo_1seccion.png">
+        </div>
+        <div class="frases_primera_seccion">
+            <div>
+                <p class="parrafo_uno_primera_seccion">¡Es un placer tenerte aquí! </p>
+            </div>
+            <div>
+                <p class="parrafo_dos_primera_seccion">¡Comederos en descuento!</p>
+            </div>
+            <div>
+                <p class="parrafo_tres_primera_seccion">COMEDEROS</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="segunda_seccion">
+        <div class="contenedor_huella_y_titulo">
+            <img id="huella" src="img/Huella.png" alt="huella pet shop">
+        </div>
+        <h1 class="contenedor_huella_y_titulo">Productos Destacados</h1>
+        <div class="contenedor_huella_y_titulo">
+            <ul>
+                <li>Comederos</li>
+                <li>Accesorios</li>
+                <li>Comida</li>
+            </ul>
+        </div>
+        <div class="contenedor_productos">
+            <div>
+                <img src="img/churrasquito.png" alt="imagen churrasquito">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </div>
+            <div>
+                <img src="img/comedero.png" alt="imagen comedero">
+                <p>Comedero para perro</p>
+                <p>$250</p>
+            </div>
+            <div>
+                <img src="img/Huesito.png" alt="imagen huesitos">
+                <p>Juguete Huesito</p>
+                <p>$650</p>
+            </div>
+        </div>
+    </section>
+    <section class="datos_de_contacto">
+        <h2>Contáctanos</h2>
+        <form action="contacto" method="post">
+            <div>
+                <label for="nombre"></label>
+                <input class="botones_contacto" type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+            </div>
+            <div>
+                <label for="mail"></label>
+                <input class="botones_contacto" type="email" id="mail" name="mail"
+                    placeholder="Ingresá tu correo electrónico">
+            </div>
+            <div>
+                <label for="telefono"></label>
+                <input class="botones_contacto" type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+            </div>
+            <div class="boton">
+                <button class="boton_reset" type="reset">Resetear</button>
+                <button class="boton_submit" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="seccion_suscripcion">
+        <div class="texto_suscripcion">
+            <img class="img_suscripcion"src="img/Suscribete.png" alt="imagen correo electronico">
+        </div>
+        <div class="texto_suscripcion">
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <form class="formulario_suscripcion" action="suscripcion" method="post">
+            <div>
+                <label for="mail"></label>
+                <input class="ingreso_correo" type="email" id="mail" name="mail" placeholder="Ingresá tu correo electronico">
+            </div>
+            <div>
+                <button class="boton_suscribirse" type="submit">Suscribirme</button>
+            </div>
+        </form>
+
+    </section>
+    <footer>
+        <div class="iconos_footer">
+            <img src="img/Icono_localidad.png">
+            <img src="img/Icono_email.png">
+            <img src="img/Icono_telefono.png">
+        </div>
+        <div class="parrafos_footer">
+            <div>
+                <p class="datos_principales">Localidad</p>
+                <p>Calle - provincia</p>
+            </div>
+            <div>
+                <p class="datos_principales">Teléfono</p>
+                <p>Número de teléfono</p>
+            </div>
+            <div>
+                <p class="datos_principales">Correo Electrónico</p>
+                <p>Dirección de correo</p>
+            </div>
+        </div>
+        <div>
+            <img class="logo_footer" src="img/Logo_footer.png" alt="logo pet shop" ->
+        </div>
+    </footer>
+    <div class="derechos_reservados">
+        <p>Todos los derechos reservados Front End</p>
+    </div>
+</body>
+
+</html>
